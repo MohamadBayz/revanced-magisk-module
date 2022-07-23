@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-YT_PATCHER_ARGS="-e amoled -e hide-cast-button -e hide-autoplay-button -e custom-branding -e disable-fullscreen-panels -e hide-shorts-button -e enable-wide-searchbar -e microg-support"
+YT_PATCHER_ARGS="-e swipe-controls -e amoled -e hide-cast-button -e enable-wide-searchbar -e autorepeat-by-default -e microg-support -e enable-debugging -e hide-shorts-button -e custom-branding"
 MUSIC_PATCHER_ARGS="-e microg-support"
 
 # dont change anything after this point ↓
